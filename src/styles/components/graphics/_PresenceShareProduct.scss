@@ -1,0 +1,17 @@
+.PresenceShareProduct {
+  &--Wrapper {
+    margin-left: 19px;
+  }
+
+  &--Title {
+    font-size: 24px;
+    line-height: 160%;
+  }
+
+  &--Pie {
+    background: $white;
+    height: 421px;
+    max-width: 500px;
+    padding: 62px 0;
+  }
+}

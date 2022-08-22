@@ -1,0 +1,25 @@
+.Atlantia {
+  background: $blue;
+  margin: auto;
+
+  &--Header {
+    background: $blue-medium;
+    height: 70px;
+    padding: 4px 30px;
+  }
+
+  &--Graphics {
+    display: flex;
+    margin-bottom: 36px;
+  }
+
+  &--Content {
+    padding: 21px 28px 121px 28px;
+  }
+
+  &--Title {
+    color: $blue-dark;
+    font-size: 40px;
+    line-height: 160%;
+  }
+}

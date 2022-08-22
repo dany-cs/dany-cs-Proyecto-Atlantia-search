@@ -1,0 +1,11 @@
+.PriceEvolution {
+  &--Title {
+    font-size: 24px;
+    line-height: 160%;
+  }
+
+  &--Line {
+    background: $white;
+    max-width: 868px;
+  }
+}

@@ -1,0 +1,128 @@
+.ComparativeAnalysis {
+  border-radius: 4px;
+  max-width: 1440px;
+
+  &--Title {
+    color: $blue-dark;
+    font-size: 24px;
+    line-height: 160%;
+  }
+
+  &--TopBar {
+    align-items: center;
+    background: $gray-medium;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    height: 71px;
+    justify-content: space-around;
+
+    h2 {
+      color: $blue-xdark;
+      font-size: 20px;
+      line-height: 160%;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+    &--Table {
+      border: 1px solid $gray;
+      display: flex;
+      padding: 15px 7px;
+
+      &:nth-child(2n) {
+        background: $gray-light;
+      }
+
+      &:nth-child(2n+1) {
+        background: $white;
+      }
+    }
+
+    &--NameWrap {
+      align-items: center;
+      display: flex;
+      max-width: 450px;
+      width: 100%;
+
+      p {
+        color: $gray-xdark;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 160%;
+        padding-left: 20px;
+        white-space: pre;
+      }
+    }
+
+    &--Image {
+        height: 131px;
+        width: 121px;
+    }
+
+    &--Data {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+
+      p {
+        color: $gray-dark;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 160%;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    &--Persistence {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 160%;
+      max-width: 295px;
+      text-align: center;
+      width: 100%;
+
+      &::after {
+          content: '%';
+      }
+
+      &--Red {
+        color: $red;
+      }
+
+      &--Green {
+        color: $green;
+      }
+    }
+
+    &--AveragePrice {
+      margin-left: 8px;
+      max-width: 179px;
+    }
+
+    &--Name {
+      max-width: 450px;
+    }
+
+    &--Sku {
+      margin-left: 8px;
+      max-width: 200px;
+    }
+
+    &--Percentage {
+      margin-left: 8px;
+      max-width: 295px;
+    }
+
+    &--Price {
+      margin-left: 8px;
+      max-width: 179px;
+    }
+
+  &--Position {
+    margin-left: 8px;
+    max-width: 241px;
+  }
+}
